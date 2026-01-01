@@ -17,12 +17,10 @@ def mediaPreco(somaPrecos):
 
 def verificarPassouMedia():
     for item in frutas_precos:
-
         media = mediaPreco(somaPrecos)
-
         if item["preco"] > media:
             passouMedia.append({"fruta": item["fruta"], "preco": item["preco"]})
-            
+          
         if item["preco"] < media:
             print("Esse não passou!")       
 

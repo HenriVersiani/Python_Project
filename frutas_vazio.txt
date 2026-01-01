@@ -1,3 +1,4 @@
 Laranja, 3.0
+Melancia, 2.6
 Banana, 2.6
-Manga, 3.5
+Manga, 3.0
