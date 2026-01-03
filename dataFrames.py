@@ -15,7 +15,9 @@ dfNew = pd.read_csv("usuarioSave.csv")
 
 print(dfNew)
 
-dfNew.plot(x="sexo", y="categoria")
-
+dfNew["categoria"].value_counts().plot(kind="bar")
 plt.title("Categoria por Sexo")
+plt.xlabel("Categoria")
+plt.ylabel("Quantidade")
+
 plt.show()
